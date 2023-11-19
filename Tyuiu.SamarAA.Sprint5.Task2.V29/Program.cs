@@ -22,7 +22,7 @@ namespace Tyuiu.SamarAA.Sprint5.Task2.V29
             Console.Title = "Спринт #5 | Выполнил: Самар А. С. | ИИПб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Класс File. Запись набора данных в текстовый файл                 *");
+            Console.WriteLine("* Тема: Класс File. Запись структурированных данных в текстовый файл      *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
             Console.WriteLine("* Выполнил: Самар Андрей Александрович | ИИПб-23-3                        *");
