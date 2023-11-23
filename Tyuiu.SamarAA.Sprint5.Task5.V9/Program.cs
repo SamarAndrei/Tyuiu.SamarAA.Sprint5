@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.SamarAA.Sprint5.Task4.V10.Lib;
+using Tyuiu.SamarAA.Sprint5.Task5.V9.Lib;
 using System.IO;
 
-namespace Tyuiu.SamarAA.Sprint5.Task4.V10
+namespace Tyuiu.SamarAA.Sprint5.Task5.V9
 {
     class Program
     {
@@ -17,21 +17,21 @@ namespace Tyuiu.SamarAA.Sprint5.Task4.V10
             Console.Title = "Спринт #5 | Выполнил: Самар А. С. | ИИПб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Чтение данных из текстового файла                                 *");
-            Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #10                                                             *");
+            Console.WriteLine("* Тема: Чтение набора данных из текстового файла                          *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнил: Самар Андрей Александрович | ИИПб-23-3                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(@"* Дан файл С:\DataSprint5\InPutDataFileTask4V0.txt в котором есть        *");
-            Console.WriteLine("* вещественное значение. Прочитать значение из файла и подставить вместо  *");
-            Console.WriteLine("* Х в формуле y = x^3 * 1,2x + 2. Вычислить значение по формуле           *");
-            Console.WriteLine("* и вернуть полученный результат на консоль.                              *");
+            Console.WriteLine(@"* Дан файл С:\DataSprint5\InPutDataFileTask5V9.txt в котором есть набор  *");
+            Console.WriteLine("* значений. Найти максимальное целое число в файле. Полученный результат  *");
+            Console.WriteLine("* вывести на консоль. У вещественных значений округлить до                *");
+            Console.WriteLine("* трёх знаков после запятой.                                              *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = @"C:\DataSprint5\InPutDataFileTask4V10.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V9.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
@@ -40,7 +40,7 @@ namespace Tyuiu.SamarAA.Sprint5.Task4.V10
             Console.WriteLine("***************************************************************************");
 
             double res = ds.LoadFromDataFile(path);
-            Console.WriteLine(res);
+            Console.WriteLine("Максимальное целое число = "+res);
             Console.ReadKey();
         }
     }
