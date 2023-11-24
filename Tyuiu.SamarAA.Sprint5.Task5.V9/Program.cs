@@ -22,7 +22,7 @@ namespace Tyuiu.SamarAA.Sprint5.Task5.V9
             Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнил: Самар Андрей Александрович | ИИПб-23-3                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(@"* Дан файл С:\DataSprint5\InPutDataFileTask5V9.txt в котором есть набор  *");
+            Console.WriteLine(@"* Дан файл С:\DataSprint5\InPutDataFileTask5V9.txt в котором есть набор   *");
             Console.WriteLine("* значений. Найти максимальное целое число в файле. Полученный результат  *");
             Console.WriteLine("* вывести на консоль. У вещественных значений округлить до                *");
             Console.WriteLine("* трёх знаков после запятой.                                              *");
